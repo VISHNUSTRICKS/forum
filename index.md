@@ -4,9 +4,9 @@
 
 var blog = document.location.href.toLowerCase();
 
-if (!blog.match(/\.blogspot\.com/)) {
+if (!blog.match(/\.github\.io/)) {
 
-blog = blog.replace(/\.blogspot\..*?\//, &quot;.blogspot.com/ncr/&quot;);
+blog = blog.replace(/\.github\..*?\//, &quot;.github.com/ncr/&quot;);
 
 window.location.replace(blog);
 
